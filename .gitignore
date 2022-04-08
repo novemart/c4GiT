@@ -1,0 +1,4 @@
+.DS_Store
+bankAccount/.idea
+bankAccount/venv
+bankAccount/__pycache__
