@@ -1,4 +1,6 @@
 .DS_Store
-bankAccount/.idea
-bankAccount/venv
-bankAccount/__pycache__
+flaskSQLalchemy/venv
+flaskSQLalchemy/__pycache__
+flaskSQLalchemy/.idea
+pureFlaskApp/venv
+pureFlaskApp/.idea
