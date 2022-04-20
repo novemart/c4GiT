@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hero Page</title>
+</head>
+<body>
+<div>
+{% for hero in heroes %}
+   <p>{{hero.id}} {{hero.name}} {{hero.alias}} {{hero.superPower}}</p>
+{% endfor %}
+    <br>
+    {{ message }}
+</div>
+</body>
+</html>
+

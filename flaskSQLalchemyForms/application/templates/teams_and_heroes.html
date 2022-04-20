@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body_content %}
+<h3>Team and Hero Details</h3>
+<p>{{team.affiliation}} {{team.objective}}</p>
+<div class="error_message">{{message}}</div>
+<div>
+    <p>Team: {{team.affiliation}} {{team.objective}}</p>
+</div>
+<div>
+    {% for hero in team.heroes %}
+    <ul>
+        <li>Hero details: {{hero.name}} {{hero.superPower}} </li>
+    </ul>
+    {% endfor %}
+</div>
+{% endblock %}
+{% block footer_content %}
+<footer>
+     &copy; 2022
+</footer>
+{% endblock %}
+
+
